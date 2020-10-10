@@ -22,10 +22,7 @@ class Cart extends Component {
             <section className="main__summary">
                 <h2>Your cart</h2>
                 {this.generateCartItemList()}
-                <div className="summary__total">
-                    <div className="summary__total__label">Total</div>
-                    <CartTotal total={total} />
-                </div>
+                <CartTotal total={total} />
             </section>
         )
     }
